@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    width: 80%;
+    height: 100px;
+    border: solid red 10px;
+    align-items: center;
+    justify-self: center;
+}
+
+.h_pogas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 1300px;
+}
+
+.search_bar {
+    justify-self: center;
+    width: 1000px;
+    height: 50px;
+    border: solid 5px blue;
+}
+
+.logs_1 {
+    justify-self: center;
+    width: 1000px;
+    height: 1000px;
+    border: 5px solid rebeccapurple;
+    display: flex;
+    justify-content: space-evenly ;
+}
+
+.produkti_1 {
+    width: 160px;
+    height: 100px;
+    border: solid 5px brown;
+    margin-top: 10px;
+}
+
+}
+.produkti_2 {
+    width: 160px;
+    height: 100px;
+    border: solid 5px brown;
+    margin-top: 10px;
+}
+
+
