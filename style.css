@@ -11,14 +11,15 @@ body {
     align-items: center;
     justify-self: center;
     margin-bottom: 10px;
+
 }
 
 .h_pogas {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    margin-left: 1300px;
+    position: relative;
+    left: 100px;
 }
 
 /* Index dizains */
@@ -108,7 +109,7 @@ body {
 .kajenes_t {
     display: flex;
     flex-direction: row;
-    gap: 800px
+    gap: 900px
 }
 
 .kajene {
@@ -116,6 +117,11 @@ body {
     width: 80%;
     height: 150px;
     justify-self: center;
+    margin-bottom: 90px;
+}
+
+.kajenes_teksts {
+    margin-left: 5px;
 }
 /* Store dizains */
 
