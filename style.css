@@ -11,15 +11,14 @@ body {
     align-items: center;
     justify-self: center;
     margin-bottom: 10px;
-
+    justify-content: space-between;
 }
 
 .h_pogas {
     display: flex;
-    justify-content: center;
     align-items: center;
-    position: relative;
-    left: 100px;
+    margin-right: 100px;
+    
 }
 
 /* Index dizains */
@@ -126,34 +125,157 @@ body {
 /* Store dizains */
 
 .search_bar {
+    display: flex;
     justify-self: center;
     width: 80%;
     height: 50px;
     border: solid 5px blue;
+    border-bottom: 0px;
+    justify-content: center;
 }
 
-.logs_1 {
+.search {
+    width: 1000px;
+    height: 50px;
+}
+.store_logs_1 {
     justify-self: center;
     width: 80%;
-    height: 1000px;
+    height: 250px;
     border: 5px solid rebeccapurple;
     display: flex;
     justify-content: space-evenly ;
+    border-bottom: 0px;
+    border-top: 0px;
 }
 
-.produkti_1 {
-    width: 160px;
-    height: 100px;
-    border: solid 5px brown;
-    margin-top: 10px;
+.store_logs_1_teksts {
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 60px;
+    gap: 110px;
+    border: 5px solid rebeccapurple;
+    border-top: 0px;
+    border-bottom: 0px;
 }
 
-
-.produkti_2 {
-    width: 160px;
-    height: 100px;
+.store_logs_1_cena {
+    display: flex;
+    flex-direction: column;
+}
+.store_produkti_1 {
+    width: 250px;
+    height: 180px;
     border: solid 5px brown;
-    margin-top: 10px;
+    margin-top: 50px;
+}
+
+.store_logs_2 {
+    justify-self: center;
+    width: 80%;
+    height: 250px;
+    border: 5px solid rebeccapurple;
+    display: flex;
+    justify-content: space-evenly ;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+.store_logs_2_teksts {
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 60px;
+    gap: 110px;
+    border: 5px solid rebeccapurple;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.store_logs_2_cena {
+    display: flex;
+    flex-direction: column;
+}
+.store_produkti_2 {
+    width: 250px;
+    height: 180px;
+    border: solid 5px brown;
+    margin-top: 50px;
+}
+
+.store_logs_3 {
+    justify-self: center;
+    width: 80%;
+    height: 250px;
+    border: 5px solid rebeccapurple;
+    display: flex;
+    justify-content: space-evenly ;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+.store_logs_3_teksts {
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 60px;
+    gap: 110px;
+    border: 5px solid rebeccapurple;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.store_logs_3_cena {
+    display: flex;
+    flex-direction: column;
+}
+.store_produkti_3 {
+    width: 250px;
+    height: 180px;
+    border: solid 5px brown;
+    margin-top: 50px;
+}
+
+.store_logs_4 {
+    justify-self: center;
+    width: 80%;
+    height: 250px;
+    border: 5px solid rebeccapurple;
+    display: flex;
+    justify-content: space-evenly ;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+.store_logs_4_teksts {
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 60px;
+    gap: 110px;
+    border: 5px solid rebeccapurple;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.store_logs_4_cena {
+    display: flex;
+    flex-direction: column;
+}
+.store_produkti_4 {
+    width: 250px;
+    height: 180px;
+    border: solid 5px brown;
+    margin-top: 50px;
 }
 
 
