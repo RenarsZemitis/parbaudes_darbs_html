@@ -37,6 +37,7 @@ body {
     transition: 300ms;
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
 }
 
 .h_poga:hover {
@@ -47,18 +48,23 @@ body {
 .kajenes_t {
     display: flex;
     flex-direction: row;
-    gap: 900px
+    gap: 900px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: -50px;
 }
 
 .kajene {
-    border: solid 5px #E6E8E6;
+    border: solid 5px #BB7E8C;
     width: 80%;
     height: 150px;
     justify-self: center;
     margin-bottom: 90px;
-    background-color: #E6E8E6;
+    margin-top: 10px;
+    background-color: #BB7E8C;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
 }
 /* Index dizains */
 
@@ -77,35 +83,40 @@ body {
 .products_teksts_1 {
     justify-self: center;
     width: 80%;
-    border: 5px solid rebeccapurple;
+    border: 5px solid #E6E8E6;
     border-bottom: 0px;
     margin-bottom: 0px;
+    background-color: #E6E8E6;
 }
 .discounted_products {
     margin-bottom: 0px;
     margin-left: 95px;
+    background-color: #E6E8E6;
 }
 
 .products_teksts_2 {
     justify-self: center;
     width: 80%;
-    border: 5px solid rebeccapurple;
+    border: 5px solid #E6E8E6;
     border-bottom: 0px;
     margin-bottom: 0px;
+    background-color: #E6E8E6;
 }
 .new_arrivals {
     margin-bottom: 0px;
     margin-left: 95px;
+    background-color: #E6E8E6;
 }
 .index_logs_1 {
     justify-self: center;
     width: 80%;
     height: 400px;
-    border: 5px solid rebeccapurple;
+    border: 5px solid #E6E8E6;
     display: flex;
     justify-content: space-evenly ;
     margin-bottom: 10px;
     border-top: 0px;
+    background-color: #E6E8E6;
 }
 
 .index_produkti_1 {
@@ -113,31 +124,35 @@ body {
     height: 180px;
     border: solid 5px brown;
     margin-top: 10px;
+    background-color: #E6E8E6;
 }
 
 .index_logs_2 {
     justify-self: center;
     width: 80%;
     height: 400px;
-    border: 5px solid rebeccapurple;
+    border: 5px solid #E6E8E6;
     display: flex;
     justify-content: space-evenly ;
     margin-bottom: 10px;
     border-top: 0px;
+    background-color: #E6E8E6;
 }
 .index_produkti_2 {
     width: 250px;
     height: 180px;
     border: solid 5px brown;
-    margin-top: 10px
+    margin-top: 10px;
+    background-color: #E6E8E6;
 }
 
 .kontakti {
     width: 80%;
     height: 200px;
-    border: solid 5px purple;
+    border: solid 5px #E6E8E6;
     justify-self: center;
     margin-bottom: 10px;
+    background-color: #E6E8E6;
 }
 
 .kontkatu_teksts {
@@ -179,6 +194,7 @@ body {
     transition: 300ms;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
 }
 
 .filter:hover {
@@ -217,6 +233,7 @@ body {
     flex-direction: column;
     background-color: #E6E8E6;
     z-index: 0;
+    align-items: center;
 }
 .store_produkti_1 {
     width: 250px;
@@ -228,8 +245,7 @@ body {
     z-index: 1;
 }
 .store_produkti_1:hover {
-    width: 300px;
-    height: 230px;
+    scale: 1.5;
 }
 .store_logs_2 {
     justify-self: center;
@@ -262,6 +278,7 @@ body {
     flex-direction: column;
     background-color: #E6E8E6;
     z-index: 0;
+    align-items: center;
 }
 .store_produkti_2 {
     width: 250px;
@@ -273,8 +290,7 @@ body {
     z-index: 1;
 }
 .store_produkti_2:hover {
-    width: 300px;
-    height: 230px;
+    scale: 1.5;
 }
 
 .store_logs_3 {
@@ -308,6 +324,7 @@ body {
     flex-direction: column;
     background-color: #E6E8E6;
     z-index: 0;
+    align-items: center;
 
 }
 .store_produkti_3 {
@@ -320,20 +337,20 @@ body {
     z-index: 1;
 }
 .store_produkti_3:hover {
-    width: 300px;
-    height: 230px;
+    scale: 1.5;
 }
 
 .store_logs_4 {
     justify-self: center;
     width: 80%;
-    height: 250px;
+    height: 270px;
     border: 5px solid #E6E8E6;
     display: flex;
     justify-content: space-evenly ;
     border-bottom: 0px;
     border-top: 0px;
     background-color: #E6E8E6;
+    
     
 }
 
@@ -356,7 +373,8 @@ body {
     flex-direction: column;
     background-color: #E6E8E6;
     z-index: 0;
-    
+    align-items: center;
+    margin-top: -20px;
 }
 .store_produkti_4 {
     width: 250px;
@@ -366,10 +384,10 @@ body {
     background-color: #E6E8E6;
     transition: 300ms;
     z-index: 1;
+    
 }
 .store_produkti_4:hover {
-    width: 300px;
-    height: 230px;
+    scale: 1.5;
 }
 
 
