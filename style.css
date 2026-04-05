@@ -110,13 +110,37 @@ body {
 .index_logs_1 {
     justify-self: center;
     width: 80%;
-    height: 400px;
+    height: 200px;
     border: 5px solid #E6E8E6;
     display: flex;
     justify-content: space-evenly ;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     border-top: 0px;
     background-color: #E6E8E6;
+}
+
+.index_logs_1_teksts {
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 60px;
+    gap: 110px;
+    border: 5px solid #E6E8E6;
+    border-top: 0px;
+    border-bottom: 0px;
+    background-color: #E6E8E6;
+    margin-bottom: 10px;
+    padding-bottom: 100px;
+}
+
+.index_logs_1_cena {
+    display: flex;
+    flex-direction: column;
+    background-color: #E6E8E6;
+    z-index: 0;
+    align-items: center;
 }
 
 .index_produkti_1 {
@@ -125,18 +149,47 @@ body {
     border: solid 5px brown;
     margin-top: 10px;
     background-color: #E6E8E6;
+    transition: 300ms;
+    z-index: 1;
+}
+.index_produkti_1:hover{
+    scale: 1.5;
 }
 
 .index_logs_2 {
     justify-self: center;
     width: 80%;
-    height: 400px;
+    height: 200px;
     border: 5px solid #E6E8E6;
     display: flex;
     justify-content: space-evenly ;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     border-top: 0px;
     background-color: #E6E8E6;
+}
+.index_logs_2_teksts {
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 60px;
+    gap: 110px;
+    border: 5px solid #E6E8E6;
+    border-top: 0px;
+    border-bottom: 0px;
+    background-color: #E6E8E6;
+    margin-bottom: 10px;
+    padding-bottom: 100px;
+}
+
+
+.index_logs_1_cena {
+    display: flex;
+    flex-direction: column;
+    background-color: #E6E8E6;
+    z-index: 0;
+    align-items: center;
 }
 .index_produkti_2 {
     width: 250px;
@@ -144,6 +197,12 @@ body {
     border: solid 5px brown;
     margin-top: 10px;
     background-color: #E6E8E6;
+    transition: 300ms;
+    z-index: 1;
+}
+
+.index_produkti_2:hover{
+    scale: 1.5;
 }
 
 .kontakti {
