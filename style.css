@@ -60,7 +60,7 @@ body {
     background-color: #BB7E8C;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 h1, h2, h3, p {
@@ -110,6 +110,7 @@ h1, h2, h3, p {
 }
 .discounted_products_virsraksts {
    margin-left: 123px;
+   font-size: 40px;
 }
 
 .discounted_products {
@@ -118,6 +119,7 @@ h1, h2, h3, p {
     background-color: #E6E8E6;
     justify-self: center;
     border: solid 2px #E6E8E6;
+    padding-top: 40px;
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
@@ -144,7 +146,6 @@ h1, h2, h3, p {
     text-align: center ;
 }
 
-/* dfafafafaf */
 
 .virsraksts {
     width: 80%;
@@ -158,6 +159,7 @@ h1, h2, h3, p {
 }
 .new_arrivals_virsraksts {
    margin-left: 123px;
+   font-size: 40px;
 }
 
 .new_arrivals {
@@ -166,6 +168,7 @@ h1, h2, h3, p {
     background-color: #E6E8E6;
     justify-self: center;
     border: solid 2px #E6E8E6;
+    padding-top: 40px;
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
@@ -193,34 +196,16 @@ h1, h2, h3, p {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .kontakti {
     width: 80%;
-    height: 200px;
+    height: 150px;
     border: solid 5px #E6E8E6;
     justify-self: center;
     margin-bottom: 10px;
     background-color: #E6E8E6;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    font-size: 10px;
 }
 
 .kontkatu_teksts {
@@ -254,7 +239,7 @@ h1, h2, h3, p {
     margin-top: 10px;
 }
 
-.filter {
+.search_pogas {
     width: 100px;
     height: 55px;
     margin-top: 10px;
@@ -266,7 +251,7 @@ h1, h2, h3, p {
     cursor: pointer;
 }
 
-.filter:hover {
+.search_pogas:hover {
     background-color: #553A41 ;
     color: white;
 }
